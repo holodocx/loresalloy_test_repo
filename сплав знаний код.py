@@ -176,7 +176,7 @@ def paragraphs(call):
                 videourok11 = types.InlineKeyboardButton('Видео-урок', callback_data='videourok_11')
                 task11 = types.InlineKeyboardButton('Задачи', callback_data='task_11')
                 back1 = types.InlineKeyboardButton('Назад', callback_data='theme_1')
-                markup_1.add(conspect11,videourok11,task11,back1)
+                markup_11.add(conspect11,videourok11,task11,back1)
                 bot.send_message(call.message.chat.id, 'Выбери интересующий тебя ресурс:', reply_markup=markup_11)
 
 
