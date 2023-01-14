@@ -1,3 +1,5 @@
+#это старая версия бота!!!
+#Улучшенный код -- "сплав знаний бот"
 import telebot
 from telebot import types
 
