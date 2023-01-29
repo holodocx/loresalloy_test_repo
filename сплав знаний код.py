@@ -109,10 +109,11 @@ def paragraphs(call):
             elif call.data == 'paragraph_3':
                 markup_3 = types.InlineKeyboardMarkup(row_width=1)
                 conspect3 = types.InlineKeyboardButton('Конспект', callback_data='conspect_3')
+                primerzadach3 = types.InlineKeyboardButton('Примеры решения задач', callback_data='primerzadach_3')
                 videourok3 = types.InlineKeyboardButton('Видео-урок', callback_data='videourok_3')
                 task3 = types.InlineKeyboardButton('Задачи', callback_data='task_3')
                 back1 = types.InlineKeyboardButton('Назад', callback_data='theme_1')
-                markup_3.add(conspect3,videourok3,task3,back1)
+                markup_3.add(conspect3,primerzadach3,videourok3,task3,back1)
                 bot.send_message(call.message.chat.id, 'Выбери интересующий тебя ресурс:', reply_markup=markup_3)
             elif call.data == 'paragraph_4':
                 markup_4 = types.InlineKeyboardMarkup(row_width=1)
@@ -356,7 +357,13 @@ def paragraphs(call):
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
                     back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_3')
                     markup_1.add(back1)
-                    bot.send_photo(user,'https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album', reply_markup=markup_1)
+                    bot.send_photo(user,'https://sun9-34.userapi.com/impg/z6lK3B858L0nE8Zk8UbKhPvwgScxto8yFaJQ6g/-fD1krEFZhg.jpg?size=1527x2160&quality=95&sign=9ca8fc5ab20fd16b5f37ee1d722ef7e5&type=album', reply_markup=markup_1)
+                elif call.data == 'primerzadach_3':
+                    user = call.message.chat.id
+                    markup_1 = types.InlineKeyboardMarkup(row_width=1) 
+                    back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_3')
+                    markup_1.add(back1)
+                    bot.send_photo(user,'https://sun9-61.userapi.com/impg/OORWRPONILSls-VZM9kbj-DbTuXOkq-91j8WRg/kqyhMkuPWtM.jpg?size=1527x2160&quality=95&sign=399455a3d12d835200b0b046b65efd84&type=album', reply_markup=markup_1)
                 elif call.data == 'conspect_4':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
@@ -532,15 +539,17 @@ def paragraphs(call):
                 if call.data == 'videourok_1':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
+                    video1 =  types.InlineKeyboardButton('Перейти к видеоуроку', url = 'https://youtu.be/eZy2wp5XINY' )
                     back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_1')
-                    markup_1.add(back1)
-                    bot.send_photo(user,'https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album', reply_markup=markup_1)
+                    markup_1.add(video1, back1)
+                    bot.send_message(call.message.chat.id, '''Видеоурок по теме "Механическое движение" доступен по кнопке ниже:''', reply_markup=markup_1)
                 elif call.data == 'videourok_2':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
+                    video2 = types.InlineKeyboardButton('Перейти к видеоуроку', url = 'https://youtu.be/I_u9Ut-g-q4')
                     back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_2')
-                    markup_1.add(back1)
-                    bot.send_photo(user,'https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album', reply_markup=markup_1)
+                    markup_1.add(video2, back1)
+                    bot.send_message(call.message.chat.id, '''Видеоурок по теме "Траектория,путь,перемещение" доступен по кнопке ниже:''', reply_markup=markup_1)
                 elif call.data == 'videourok_3':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
