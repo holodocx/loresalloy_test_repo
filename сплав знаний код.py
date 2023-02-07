@@ -749,7 +749,7 @@ def paragraphs(call):
                     back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_1')
                     markup_realtask2.add(realtask2_1,realtask2_2,realtask2_3,realtask2_4,realtask2_5,realtask2_6,realtask2_7,realtask2_8,back1)
                     bot.send_message(call.message.chat.id, '''Тебе даны даны 8 задач. Можешь решать их в любом порядке.
-В случае ошибки ты можешь взять ещё одну попытку или сразу посмотреть решение.''')
+В случае ошибки ты можешь взять ещё одну попытку или сразу посмотреть решение.''', reply_markup=markup_realtask2)
                 elif call.data == 'task_3':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
