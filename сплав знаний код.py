@@ -737,10 +737,19 @@ def paragraphs(call):
                     bot.send_photo(user,'https://sun9-7.userapi.com/impg/f9Vq8nQ16CpMwfvzki7aSRDfzGow7mzpw_CT6w/NUJIpgn0iFc.jpg?size=2560x2560&quality=95&sign=764217999699eb764ff6e6df301e88a1&type=album', reply_markup=markup_1)
                 elif call.data == 'task_2':
                     user = call.message.chat.id
-                    markup_1 = types.InlineKeyboardMarkup(row_width=1)
-                    back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_2')
-                    markup_1.add(back1)
-                    bot.send_photo(user,'https://sun9-7.userapi.com/impg/f9Vq8nQ16CpMwfvzki7aSRDfzGow7mzpw_CT6w/NUJIpgn0iFc.jpg?size=2560x2560&quality=95&sign=764217999699eb764ff6e6df301e88a1&type=album', reply_markup=markup_1)
+                    markup_realtask2 = types.InlineKeyboardMarkup(row_width=1)
+                    realtask2_1 = types.InlineKeyboardButton('Задача 1.', callback_data='realtask_2_1')
+                    realtask2_2 = types.InlineKeyboardButton('Задача 2.', callback_data='realtask_2_2')
+                    realtask2_3 = types.InlineKeyboardButton('Задача 3.', callback_data='realtask_2_3')
+                    realtask2_4 = types.InlineKeyboardButton('Задача 4.', callback_data='realtask_2_4')
+                    realtask2_5 = types.InlineKeyboardButton('Задача 5.', callback_data='realtask_2_5')
+                    realtask2_6 = types.InlineKeyboardButton('Задача 6.', callback_data='realtask_2_6')
+                    realtask2_7 = types.InlineKeyboardButton('Задача 7.', callback_data='realtask_2_7')
+                    realtask2_8 = types.InlineKeyboardButton('Задача 8.', callback_data='realtask_2_8')
+                    back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_1')
+                    markup_realtask2.add(realtask2_1,realtask2_2,realtask2_3,realtask2_4,realtask2_5,realtask2_6,realtask2_7,realtask2_8,back1)
+                    bot.send_message(call.message.chat.id, '''Тебе даны даны 8 задач. Можешь решать их в любом порядке.
+В случае ошибки ты можешь взять ещё одну попытку или сразу посмотреть решение.''')
                 elif call.data == 'task_3':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
