@@ -381,7 +381,7 @@ def paragraphs(call):
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
                     back1 = types.InlineKeyboardButton('Назад', callback_data='paragraph_6')
                     markup_1.add(back1)
-                    bot.send_photo(user,'https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album', reply_markup=markup_1)
+                    bot.send_photo(user,'https://sun9-51.userapi.com/impg/WTCMbzv6_4e2YFJ3iQ6xk2fWfaoh-Axfz9AmqQ/7QRKVDoAtgI.jpg?size=1644x2032&quality=95&sign=52c5d86e66f977295da3569c9ff399e9&type=album', reply_markup=markup_1)
                 elif call.data == 'conspect_7':
                     user = call.message.chat.id
                     markup_1 = types.InlineKeyboardMarkup(row_width=1)
