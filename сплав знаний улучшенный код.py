@@ -325,7 +325,7 @@ def paragraphs(call):
             code = call.data
 
             if 'conspect' in call.data:
-                # paragraph_1conspect
+                # paragraph_?conspect
                 code = call.data.rstrip('conspect')
                 paragraph, theme = find_paragraph_by_code(code)
                 markup_1 = types.InlineKeyboardMarkup(row_width=1)
@@ -334,13 +334,14 @@ def paragraphs(call):
                 bot.send_photo(user, paragraph['conspect'], reply_markup=markup_1)
 
             elif 'videourok' in call.data:
-                # paragraph_1videourok
+                # paragraph_?videourok
                 code = call.data.rstrip('videourok')
                 paragraph, theme = find_paragraph_by_code(code)
                 markup_1 = types.InlineKeyboardMarkup(row_width=1)
+                video =  types.InlineKeyboardButton('Перейти к видеоуроку', url=paragraph['videourok']) 
                 back1 = types.InlineKeyboardButton('Назад', callback_data=paragraph['code'])
-                markup_1.add(back1)
-                bot.send_photo(user, paragraph['videourok'], reply_markup=markup_1)
+                markup_1.add(video, back1)
+                bot.send_message(call.message.chat.id, '''Видеоурок доступен по кнопке ниже:''', reply_markup=markup_1)
 
             elif 'task' in call.data:
                 code = call.data.rstrip('task')
@@ -349,7 +350,7 @@ def paragraphs(call):
                 
 
             else:        
-                # paragraph_3
+                # paragraph_?
                 paragraph, theme = find_paragraph_by_code(call.data)
                 if paragraph:
 
