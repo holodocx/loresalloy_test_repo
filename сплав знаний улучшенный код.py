@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-topics = [
+themes = [
     {
         "title": "Кинематика",
         "code": "theme_1",
@@ -268,18 +268,18 @@ topics = [
     }
 ]
 
-def find_topic_by_code(code):
-    for topic in topics:
-        if topic['code'] == code:
-            return topic
+def find_theme_by_code(code):
+    for theme in themes:
+        if theme['code'] == code:
+            return theme
     
     return None
 
 def find_paragraph_by_code(code):
-    for topic in topics:
-        for paragraph in topic['paragraphs']:
+    for theme in themes:
+        for paragraph in theme['paragraphs']:
             if paragraph['code'] == code:
-                return paragraph
+                return paragraph, theme
     
     return None
 
@@ -298,50 +298,67 @@ def start(message):
 def assortment(message):
     chat_id = message.chat.id
     markup_themes = types.InlineKeyboardMarkup(row_width=1)
-    for topic in topics:
-        markup_themes.add(types.InlineKeyboardButton(topic['title'], callback_data=topic['code']))
+    for theme in themes:
+        markup_themes.add(types.InlineKeyboardButton(theme['title'], callback_data=theme['code']))
     bot.send_message(message.chat.id, 'Выбери главу:', reply_markup=markup_themes)
 
 
 @bot.callback_query_handler(func=lambda call:True)
 def paragraphs(call):
+    print(call.data, call.message)
     user = call.message.chat.id
     if call.message:
+        print(1)
         if call.data == 'themes':
            assortment(call.message)
         if 'theme_' in call.data:
-            topic = find_topic_by_code(call.data)
-            if topic:
+            print("finding theme")
+            theme = find_theme_by_code(call.data)
+            if theme:
                 markup_parag = types.InlineKeyboardMarkup(row_width=1)
-                for paragraph in topic['paragraphs']:
-                    markup_parag.add(types.InlineKeyboardButton(paragraph['title'], callback_data=topic['code']))
+                for paragraph in theme['paragraphs']:
+                    markup_parag.add(types.InlineKeyboardButton(paragraph['title'], callback_data=paragraph['code']))
                 bot.send_message(call.message.chat.id, 'Выбери параграф:', reply_markup=markup_parag)
 
 
-        if 'paragraph_' in call.data:
+        if 'paragraph' in call.data:
             code = call.data
 
             if 'conspect' in call.data:
+                # paragraph_1conspect
                 code = call.data.rstrip('conspect')
-                paragraph = find_paragraph_by_code(call.data)
+                paragraph, theme = find_paragraph_by_code(code)
+                markup_1 = types.InlineKeyboardMarkup(row_width=1)
+                back1 = types.InlineKeyboardButton('Назад', callback_data=paragraph['code'])
+                markup_1.add(back1)
+                bot.send_photo(user, paragraph['conspect'], reply_markup=markup_1)
 
             elif 'videourok' in call.data:
+                # paragraph_1videourok
                 code = call.data.rstrip('videourok')
-                paragraph = find_paragraph_by_code(call.data)
+                paragraph, theme = find_paragraph_by_code(code)
+                markup_1 = types.InlineKeyboardMarkup(row_width=1)
+                back1 = types.InlineKeyboardButton('Назад', callback_data=paragraph['code'])
+                markup_1.add(back1)
+                bot.send_photo(user, paragraph['videourok'], reply_markup=markup_1)
 
             elif 'task' in call.data:
                 code = call.data.rstrip('task')
-                paragraph = find_paragraph_by_code(call.data)
+                paragraph, theme = find_paragraph_by_code(code)
+
+                
 
             else:        
-                paragraph = find_paragraph_by_code(call.data)
+                # paragraph_3
+                paragraph, theme = find_paragraph_by_code(call.data)
                 if paragraph:
+
                     markupp = types.InlineKeyboardMarkup(row_width=1)
                     conspect = types.InlineKeyboardButton('Конспект', callback_data=code + 'conspect')
                     videourok = types.InlineKeyboardButton('Видео-урок', callback_data=code + 'videourok')
                     task = types.InlineKeyboardButton('Задачи', callback_data=code + 'task')
-                    back1 = types.InlineKeyboardButton('Назад', callback_data='theme')
-                    markupp.add(conspect,videourok,task, back1)
+                    back1 = types.InlineKeyboardButton('Назад', callback_data=theme['code'])
+                    markupp.add(conspect, videourok, task, back1)
                     bot.send_message(call.message.chat.id, 'Выбери интересующий тебя ресурс:', reply_markup=markupp)
 
 
