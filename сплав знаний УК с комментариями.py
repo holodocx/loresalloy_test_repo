@@ -36,7 +36,7 @@ themes = [
                 "title": 'Скорость равномер.прямолин.движения',
                 "code": "paragraph_3",
                 'conspect': "https://sun9-34.userapi.com/impg/z6lK3B858L0nE8Zk8UbKhPvwgScxto8yFaJQ6g/-fD1krEFZhg.jpg?size=1527x2160&quality=95&sign=9ca8fc5ab20fd16b5f37ee1d722ef7e5&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/uX2vilBO4tE",
                 "task": [
                     {
                         "url": "",
@@ -49,7 +49,7 @@ themes = [
                 "title": "Сложение скоростей",
                 "code": "paragraph_4",
                 'conspect': "https://sun9-61.userapi.com/impg/OORWRPONILSls-VZM9kbj-DbTuXOkq-91j8WRg/kqyhMkuPWtM.jpg?size=1527x2160&quality=95&sign=399455a3d12d835200b0b046b65efd84&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/gdUh6TNPTzk",
                 "task": [
                     {
                         "url": "",
@@ -76,7 +76,7 @@ themes = [
                 "title": 'Ускорение',
                 "code": "paragraph_6",
                 'conspect': "https://sun9-51.userapi.com/impg/WTCMbzv6_4e2YFJ3iQ6xk2fWfaoh-Axfz9AmqQ/7QRKVDoAtgI.jpg?size=1644x2032&quality=95&sign=52c5d86e66f977295da3569c9ff399e9&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/6VXvLh3AnUs",
                 "task": [
                     {
                         "url": "",
@@ -90,7 +90,7 @@ themes = [
                 "title": 'Перемещение при прямолин.равноускор.движении',
                 "code": "paragraph_7",
                 'conspect': "https://sun9-77.userapi.com/impg/mJv60mwqQz5T1eiXf4vtfHhusViN4-J1v-2uGQ/s57aoLAnDNM.jpg?size=1653x1943&quality=95&sign=a60dec4dbc1c466d23e5bb18b5978252&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/9u2MuzHii7Y",
                 "task": [
                     {
                         "url": "",
@@ -104,7 +104,7 @@ themes = [
                 "title": 'Свободное падение тел',
                 "code": "paragraph_8",
                 'conspect': "https://sun9-44.userapi.com/impg/qXe0UINvC-ImmltBiwXvzrG_9qOo0GbxtkoEkg/y6RQWBrOzOI.jpg?size=1280x1043&quality=95&sign=73fe866dc1bc00976516979d2dd6d1c7&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/Io2Nq6f3HuQ",
                 "task": [
                     {
                         "url": "",
@@ -118,7 +118,7 @@ themes = [
                 "title": "Движение тел,брошенных под углом к горизонту",
                 "code": "paragraph_9",
                 'conspect': "https://sun9-3.userapi.com/impg/1lDUve3HU47xA6M8EfffOAHcHh7lev1zVSkbbA/4kG3qQ4ES9E.jpg?size=904x1280&quality=95&sign=0974da2170cbb342ad316352b354b9ab&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/rscPxlPHTPU",
                 "task": [
                     {
                         "url": "",
@@ -131,8 +131,8 @@ themes = [
             {
                 "title": 'Равномер.движение по окружности',
                 "code": "paragraph_10",
-                'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                'conspect': "https://sun9-7.userapi.com/impg/2wAIjhP7TzywdMUSfXTIUErytA8qwuxixSDZCA/mhB2YWNUHYE.jpg?size=905x1280&quality=95&sign=addeb48ab9ee8587fec8074a7f36a059&type=album",
+                "videourok": "https://youtu.be/JKjXRD4ZmWg",
                 "task": [
                     {
                         "url": "",
@@ -145,8 +145,8 @@ themes = [
             {
                 "title": 'Центростремительное ускорение',
                 "code": "paragraph_11",
-                'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                'conspect': "https://sun9-58.userapi.com/impg/81zLT_aQvTlxFwh88sqDNiELREhxa6awbtUToQ/36HpDxC435s.jpg?size=1280x874&quality=95&sign=429d2a08a3baa8d07498a5559c0c47ed&type=album",
+                "videourok": "https://youtu.be/2m1Wwj5DEHc",
                 "task": [
                     {
                         "url": "",
@@ -165,8 +165,8 @@ themes = [
             {
                 "title": "1-й закон Ньютона",
                 "code": "paragraph_12",
-                'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                'conspect': "https://sun9-74.userapi.com/impg/hVLjFDdzqJ9DPdo4gw9z7xXSDy4WcM6cN3w_wg/-8gESbAqxt0.jpg?size=1280x1119&quality=95&sign=3a7e7344fd7c4aba291ce761e8b1a82a&type=album",
+                "videourok": "https://youtu.be/gLxCiIRWtuE",
                 "task": [
                     {
                         "url": "",
@@ -179,8 +179,8 @@ themes = [
             {
                 "title": "Сила",
                 "code": "paragraph_13",
-                'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                'conspect': "https://sun9-29.userapi.com/impg/RUQSMHBKUBBgAPwhT0SVdr7yAEuGTUb1wiS5YA/3258dtko7GE.jpg?size=1102x1280&quality=95&sign=748b4dd8b93f21aab25720b034a58803&type=album",
+                "videourok": "https://youtu.be/XAsji3sgMg4",
                 "task": [
                     {
                         "url": "",
@@ -193,8 +193,8 @@ themes = [
             {
                 "title": '2-й закон Ньютона',
                 "code": "paragraph_14",
-                'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                'conspect': "https://sun9-57.userapi.com/impg/1sWpXv7OzhE5lXaHhtygSrU2Gv1zh6DhI4FtHQ/pEF1HOBfMaA.jpg?size=1201x1280&quality=95&sign=97a90ed710791d5e452b2173c9d8b4bb&type=album",
+                "videourok": "https://youtu.be/XAsji3sgMg4",
                 "task": [
                     {
                         "url": "",
@@ -208,7 +208,7 @@ themes = [
                 "title": '3-й закон Ньютона',
                 "code": "paragraph_15",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/OijNRhnYokY",
                 "task": [
                     {
                         "url": "",
@@ -222,7 +222,7 @@ themes = [
                 "title": 'Закон всемирного тяготения',
                 "code": "paragraph_16",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/TQUIIGeozbQ",
                 "task": [
                     {
                         "url": "",
@@ -236,7 +236,7 @@ themes = [
                 "title": 'Вес.Невесомость.Перегрузка',
                 "code": "paragraph_17",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/vWs4MIZTEwM",
                 "task": [
                     {
                         "url": "",
@@ -250,7 +250,7 @@ themes = [
                 "title": "1-я космическая скорость",
                 "code": "paragraph_18",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/xQOns-yfmJI",
                 "task": [
                     {
                         "url": "",
@@ -264,7 +264,7 @@ themes = [
                 "title": 'Сила трения',
                 "code": "paragraph_19",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/zi3omRrfurg",
                 "task": [
                     {
                         "url": "",
@@ -284,7 +284,7 @@ themes = [
                 "title": "Условия равновесия тел",
                 "code": "paragraph_20",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/d348jsnU5i8",
                 "task": [
                     {
                         "url": "",
@@ -298,7 +298,7 @@ themes = [
                 "title": "Центр тяжести",
                 "code": "paragraph_21",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/6OyCV7jodYA",
                 "task": [
                     {
                         "url": "",
@@ -312,7 +312,7 @@ themes = [
                 "title": 'Виды равновесия.Устойчивость тел',
                 "code": "paragraph_22",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/BD_-qrhXH5k",
                 "task": [
                     {
                         "url": "",
@@ -332,7 +332,7 @@ themes = [
                 "title": "Импульс тела",
                 "code": "paragraph_23",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/Ev68eLx6RWA",
                 "task": [
                     {
                         "url": "",
@@ -346,7 +346,7 @@ themes = [
                 "title": "Закон сохранения импульса",
                 "code": "paragraph_24",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/-XPUqhgOVJU",
                 "task": [
                     {
                         "url": "",
@@ -360,7 +360,7 @@ themes = [
                 "title": 'Реактивное движение',
                 "code": "paragraph_25",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/MM_72FXE7oA",
                 "task": [
                     {
                         "url": "",
@@ -374,7 +374,7 @@ themes = [
                 "title": 'Механическая работа.Мощность',
                 "code": "paragraph_26",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/pkbCHu7zoJk",
                 "task": [
                     {
                         "url": "",
@@ -388,7 +388,7 @@ themes = [
                 "title": 'Кинетическая энергия тела',
                 "code": "paragraph_27",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/rPVKb_leXus",
                 "task": [
                     {
                         "url": "",
@@ -402,7 +402,7 @@ themes = [
                 "title": 'Рябота силы тяжести.Потенц.энергия',
                 "code": "paragraph_28",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/aggu45cT8vI",
                 "task": [
                     {
                         "url": "",
@@ -416,7 +416,7 @@ themes = [
                 "title": "Работа силы упругости",
                 "code": "paragraph_29",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/j1z_LnFKRvg",
                 "task": [
                     {
                         "url": "",
@@ -430,7 +430,7 @@ themes = [
                 "title": 'Закон сохранения механич.энергии',
                 "code": "paragraph_30",
                 'conspect': "https://sun9-68.userapi.com/impg/BupTxIbwvs4myt_bPoTmjZrIjhTx5mUiYbLnIQ/icAcLr_BAA0.jpg?size=2560x2560&quality=95&sign=32cee20697613a4ba065970e118d1f0e&type=album",
-                "videourok": "https://sun9-72.userapi.com/impg/Z5SRN-PkFazUANXhXI7s3-Wrcg1E5jVkgcM13w/heSJYb1_iZ4.jpg?size=2560x2560&quality=95&sign=1f6625705e4abdff3176030be73612d6&type=album",
+                "videourok": "https://youtu.be/dPS3_jE3u2k",
                 "task": [
                     {
                         "url": "",
